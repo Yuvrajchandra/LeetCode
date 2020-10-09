@@ -11,6 +11,6 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
   
   [1431. Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)
   + To find max element of vector, following syntax is used.  
-    int max = *max_element(candies.begin(),candies.end());
+    For eg- int max = *max_element(candies.begin(),candies.end());
     
 ---
