@@ -26,7 +26,7 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
 + Using for loop as  
   for(int i=0; i<nums.size(); i++)
   is **more faster** than using it as-  
-  int size = nums.size();  
-  for(int i=0; i<nums.size(); i++)  
+  int sizeOfVector = nums.size();  
+  for(int i=0; i<sizeOfVector; i++)  
   
 ---
