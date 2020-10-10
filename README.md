@@ -21,3 +21,12 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
   for(int i=0;j=0;k=0; i<n; i++,j++,k++)
   
 ---
+
+[1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)  
++ Using for loop as  
+  for(int i=0; i<nums.size(); i++)
+  is **more faster** than using it as-  
+  int size = nums.size();  
+  for(int i=0; i<nums.size(); i++)  
+  
+---
