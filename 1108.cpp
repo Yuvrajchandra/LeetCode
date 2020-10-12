@@ -1,3 +1,11 @@
+// Method 1
+string defangIPaddr(string address) {
+  return regex_replace(address, regex("[.]"), "[.]");
+}
+
+
+
+// Method 2
 class Solution {
 public:
     string defangIPaddr(string address) {
@@ -12,9 +20,7 @@ public:
         {
             result += "[.]";
         }
-    }
-        
-    return result;
-        
+    }      
+    return result;       
     }
 };
