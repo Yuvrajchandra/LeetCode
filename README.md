@@ -42,3 +42,8 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
 
 ---
  
+[771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
++ Using for(char &ch1 : Str) is more faster way to use for loop as compared to  
+  for(char & ch1 : Str) or any other type of for loop.
+  
+---
