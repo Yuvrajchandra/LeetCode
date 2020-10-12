@@ -30,3 +30,13 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
   for(int i=0; i<sizeOfVector; i++)  
   
 ---
+
+[1108. Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)  
++ Replace characters of String  
+  regex_replace(address, regex("[-]"), "[.]")
+  Using **regex_replace** we can replace the match.
+  Here, "255-100-50-0" will be replaced by "255[.]100[.]50[.]0"
+  Note- It is slow as compared to next method
+  
++ See the 2nd approach of this question for faster way to replace.
+ 
