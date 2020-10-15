@@ -47,3 +47,15 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
   for(char & ch1 : Str) or any other type of for loop.
   
 ---
+
+[1281. Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
++ Following logic is used to get each digit of a number.  
+```
+          while(n)
+          {
+            int remainder = n%10; 
+            n /= 10;
+          }
+```
+
+---
