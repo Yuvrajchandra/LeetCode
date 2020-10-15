@@ -60,13 +60,20 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
 
 ---
 
+**[IMP]***
 [1313. Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)
 + vector insert() function in C++ STL  
   Following is the syntax of vector insert() :  
+  
   + vector_name.insert(position, frequency, value);  
-    For eg- ``` vec.insert(vec.end(), 2, 4); ```
+    For eg- ``` vec.insert(vec.end(), 2, 4); ```  
+    
   + vector_name.insert (position, value);
-    For More details visit [this](https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/)
+    For More details visit [this](https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/) for more details.
     
 ---
 
+[1389. Create Target Array in the Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)
++ vector_name.insert (position, value);
+
+---
