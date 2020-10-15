@@ -60,7 +60,7 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
 
 ---
 
-**[IMP]***
+**[IMP]**  
 [1313. Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)
 + vector insert() function in C++ STL  
   Following is the syntax of vector insert() :  
