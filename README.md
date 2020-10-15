@@ -77,3 +77,12 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
 + vector_name.insert (position, value);
 
 ---
+
+[1486. XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)
++ XOR of a number with itself results Zero. and XOR of a number with 0 results the number itself.  
+  For eg-  
+         ```
+            2 ^ 2 = 0  
+            4 ^ 0 = 4
+            
+---            
