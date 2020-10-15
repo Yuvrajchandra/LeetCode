@@ -59,3 +59,14 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
 ```
 
 ---
+
+[1313. Decompress Run-Length Encoded List](https://leetcode.com/problems/decompress-run-length-encoded-list/)
++ vector insert() function in C++ STL  
+  Following is the syntax of vector insert() :  
+  + vector_name.insert(position, frequency, value);
+    For eg- ``` vec.insert(vec.end(), 2, 4); ```
+  + vector_name.insert (position, value);
+    For More details visit [this](https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/)
+    
+---
+
