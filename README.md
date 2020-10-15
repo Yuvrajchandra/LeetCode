@@ -68,7 +68,7 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
   + vector_name.insert(position, frequency, value);  
     For eg- ``` vec.insert(vec.end(), 2, 4); ```  
     
-  + vector_name.insert (position, value);
+  + vector_name.insert (position, value);  
     For More details visit [this](https://www.geeksforgeeks.org/vector-insert-function-in-c-stl/) for more details.
     
 ---
