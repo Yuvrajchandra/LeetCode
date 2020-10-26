@@ -82,8 +82,8 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
 + XOR of a number with itself results Zero. and XOR of a number with 0 results the number itself.  
   For eg-  
          ```
-            2 ^ 2 = 0  
-            4 ^ 0 = 4
+            2 ^ 2 = 0
+            4 ^ 0 = 4         
          ```
             
 ---  
