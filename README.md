@@ -84,5 +84,20 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
          ```
             2 ^ 2 = 0  
             4 ^ 0 = 4
+         ```
             
----            
+---  
+
+[1295. Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)
++ To count number of digits in a number.  
+  ```
+      int noOfDigits = 0;
+      while(num)
+      {
+          noOfDigits++;
+          num/=10;
+      }
+   ```
+   
+---
+
