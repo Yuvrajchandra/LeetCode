@@ -101,3 +101,15 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
    
 ---
 
+[1561. Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)
++ To sort the vector in descending order, folloeing syntax is used-  
+  ```
+  sort(piles.begin(), piles.end(), greater<int>());
+  ```
++ To copy a vector to another-
+  ```
+  vector<int> newVec = oldVec;
+  ```
+  
+---
+
