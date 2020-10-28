@@ -102,7 +102,7 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
 ---
 
 [1561. Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/)
-+ To sort the vector in descending order, folloeing syntax is used-  
++ To sort the vector in descending order, following syntax is used-  
   ```
   sort(piles.begin(), piles.end(), greater<int>());
   ```
@@ -111,5 +111,16 @@ This repository contains solution of Leetcode problems (in C++) and key points/t
   vector<int> newVec = oldVec;
   ```
   
+---
+
+[1630. Arithmetic Subarrays](https://leetcode.com/problems/arithmetic-subarrays/)
++ vec.end() points to the index equal to the size of the array.  
++ To create a vector from sub-array of other array following syntax is used:  
+  ```
+  vector<int> newVect(nums.begin()+1, nums.begin()+4+1);
+  // To copy elements of nums indexed between 1 to 4
+  ```
+  Note : +1 is used with 2nd parameter due to given 1st point.
+
 ---
 
