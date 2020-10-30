@@ -1,5 +1,5 @@
 ### Important
-    ```
+```
     static auto _______ = [](){
         // turn off sync
         std::ios::sync_with_stdio(false);
@@ -7,4 +7,4 @@
         std::cin.tie(nullptr);
         return 0;
     }();
-    ```
+```
